@@ -4,6 +4,7 @@ import MainLayout from '../Layout/MainLayout';
 import Login from '../Pages/Login/Login';
 import Verification from '../Pages/Verification/Verification';
 import DashBoardLayout from '../Layout/DashBoardLayout';
+import Dashboard from '../Pages/Dashboard/Dashboard';
 
 const Router = createBrowserRouter([
     {
@@ -21,7 +22,13 @@ const Router = createBrowserRouter([
     },
     {
       path:'dashboard',
-      element:<DashBoardLayout></DashBoardLayout>
+      element:<DashBoardLayout></DashBoardLayout>,
+      children:[
+        {
+          path:'menu',
+          element: <Dashboard></Dashboard>
+        }
+      ]
     }
   ]);
 
