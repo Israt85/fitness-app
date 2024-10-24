@@ -8,19 +8,20 @@ export default function Form() {
             </div>
            
             <form className="space-y-6">
-                <div className="space-y-2">
-                    <label htmlFor="nui_email" className="block">
-                        Email
-                    </label>
-                    <div className="relative">
-                        <input
-                            id="nui_email"
-                            type="email"
-                            placeholder="example@gmail.com"
-                            className="h-16 w-full rounded bg-transparent pl-10 outline-none ring-1 ring-zinc-400 dark:ring-gray-500"
-                        />
-                    </div>
-                </div>
+            <div className="space-y-2">
+  <label htmlFor="email" className="block text-[#B7D235]">
+    Enter Email Address
+  </label>
+  <div className="relative">
+    <input
+      id="email"
+      type="email"
+      placeholder="jhon324@gmail.com"
+      className="w-full h-14 rounded-lg border border-[#B7D235] bg-transparent pl-4 text-[#B7D235] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#B7D235]"
+    />
+  </div>
+</div>
+
                 <div className="space-y-2">
                     <div className="relative bg-gray-500">
                         <input
@@ -47,7 +48,7 @@ export default function Form() {
 </div>
 
                 
-                <button className="rounded w-full font-bold text-lg px-5 py-2 my-4 ring-1 ring-zinc-400 bg-[#D0FD3E]">Login</button>
+                <button className="rounded w-full font-bold text-lg px-5 py-3 my-4 ring-1 ring-zinc-400 bg-[#D0FD3E]">Login</button>
             </form>
             <div className="my-8 flex items-center">
                 <hr className="flex-1 border-gray-400" />
