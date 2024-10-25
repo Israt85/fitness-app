@@ -1,3 +1,4 @@
+import { Link } from 'phosphor-react';
 import john from '../../assets/Images/john.jpeg'
 import Dropdown from '../../Components/Dropdown/Dropdown';
 
@@ -28,7 +29,7 @@ const DashboardNav = () => {
 
               </div>
               {/* cart */}
-              <div className='w-10 h-10 flex justify-center items-center border-[#D0FD3E] rounded-full  border'>
+              <div className='w-10 mx-4 h-10 flex justify-center items-center border-[#D0FD3E] rounded-full  border'>
               <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M14.4 11.4174C14.8774 11.4174 15.3352 11.5678 15.6728 11.8354C16.0104 12.1031 16.2 12.4661 16.2 12.8446C16.2 13.2231 16.0104 13.5861 15.6728 13.8538C15.3352 14.1214 14.8774 14.2718 14.4 14.2718C13.9226 14.2718 13.4648 14.1214 13.1272 13.8538C12.7896 13.5861 12.6 13.2231 12.6 12.8446C12.6 12.0525 13.401 11.4174 14.4 11.4174ZM0 0H2.943L3.789 1.42718H17.1C17.3387 1.42718 17.5676 1.50236 17.7364 1.63618C17.9052 1.77001 18 1.95151 18 2.14077C18 2.26208 17.955 2.38339 17.892 2.49756L14.67 7.11448C14.364 7.54977 13.77 7.84948 13.095 7.84948H6.39L5.58 9.01263L5.553 9.09826C5.553 9.14557 5.5767 9.19095 5.6189 9.2244C5.6611 9.25786 5.71833 9.27666 5.778 9.27666H16.2V10.7038H5.4C4.92261 10.7038 4.46477 10.5535 4.12721 10.2858C3.78964 10.0182 3.6 9.65517 3.6 9.27666C3.6 9.0269 3.681 8.79141 3.816 8.59161L5.04 6.84332L1.8 1.42718H0V0ZM5.4 11.4174C5.87739 11.4174 6.33523 11.5678 6.67279 11.8354C7.01036 12.1031 7.2 12.4661 7.2 12.8446C7.2 13.2231 7.01036 13.5861 6.67279 13.8538C6.33523 14.1214 5.87739 14.2718 5.4 14.2718C4.92261 14.2718 4.46477 14.1214 4.12721 13.8538C3.78964 13.5861 3.6 13.2231 3.6 12.8446C3.6 12.0525 4.401 11.4174 5.4 11.4174ZM13.5 6.4223L16.002 2.85436H4.626L6.75 6.4223H13.5Z" fill="#D0FD3E"/>
 </svg>
@@ -40,9 +41,9 @@ const DashboardNav = () => {
             </div>
            <div className='border-l-2 mx-6 h-12'>
            <div className='flex gap-2  justify-center items-center w-52'>
-                <div>
-                  <img className='w-12 h-12 rounded-full' src={john} alt="" />
-                </div>
+                <a href="profile"><div>
+                <img className='w-12 h-12 rounded-full' src={john} alt="" />
+                </div></a>
                 <div>
                        <h1 className='text-xl'>Jhon Doe</h1>
                        <p className='text-gray-400' >admin@admin.com</p>

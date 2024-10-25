@@ -1,4 +1,4 @@
-
+import profile from '../../assets/Images/profileimg.jpeg'
 
 const Dashboard = () => {
     return (
@@ -66,12 +66,57 @@ const Dashboard = () => {
                 <p className="text-xl font-semibold">24</p>
             </div>
            </div>
-           <div className="w-72 h-60 border">
-
+          <div className='h-64 w-72 border bg-[#424756] border-[#767E97] rounded-lg'>
+          <div className=" text-gray-300 px-2 flex justify-between ">
+              <div>
+                <img className='w-24 pt-2 h-24 rounded-full' src={profile} alt="" />
+                <p>11 Sep, 2024</p>
+                <p className='text-2xl font-semibold text-[#D0FD3E]'>Selena John</p>
+              </div>
+              <div>
+                <p className='w-full h-10 rounded-full flex justify-center items-center mt-4 bg-[#D0FD3E26] text-[#D0FD3E]'>New users</p>
+                <p className='text-lg py-2'>Weight:  58 Kgs</p>
+                <p className='text-lg'>Height: 176 cms</p>
+              </div>
+              
            </div>
-           <div className="w-72 h-60 border mr-4">
-
+          <div className='flex border-t-2 m-2 py-2 justify-around items-center'>
+          <div className='text-white'>
+            <p className='text-xl'>
+              Female
+            </p>
+            <p>30 yrs old</p>
            </div>
+           <p className='text-2xl text-[#FCCE6E] font-bold'>Basic Gym Plan</p>
+          </div>
+          
+          </div>
+           
+          <div className='h-64 w-72 border bg-[#424756] border-[#767E97] rounded-lg'>
+          <div className=" text-gray-300 px-2 flex justify-between ">
+              <div>
+                <img className='w-24 pt-2 h-24 rounded-full' src={profile} alt="" />
+                <p>11 Sep, 2024</p>
+                <p className='text-2xl font-semibold text-[#D0FD3E]'>Selena John</p>
+              </div>
+              <div>
+                <p className='w-full h-10 rounded-full flex justify-center items-center mt-4 bg-[#D0FD3E26] text-[#D0FD3E]'>New users</p>
+                <p className='text-lg py-2'>Weight:  58 Kgs</p>
+                <p className='text-lg'>Height: 176 cms</p>
+              </div>
+              
+           </div>
+          <div className='flex border-t-2 m-2 py-2 justify-around items-center'>
+          <div className='text-white'>
+            <p className='text-xl'>
+              Female
+            </p>
+            <p>30 yrs old</p>
+           </div>
+           <p className='text-2xl text-[#FCCE6E] font-bold'>Basic Gym Plan</p>
+          </div>
+          
+          </div>
           </div>
         </div>
     );

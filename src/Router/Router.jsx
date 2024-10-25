@@ -5,6 +5,7 @@ import Login from '../Pages/Login/Login';
 import Verification from '../Pages/Verification/Verification';
 import DashBoardLayout from '../Layout/DashBoardLayout';
 import Dashboard from '../Pages/Dashboard/Dashboard';
+import Profile from '../Pages/Profile/Profile';
 
 const Router = createBrowserRouter([
     {
@@ -27,6 +28,10 @@ const Router = createBrowserRouter([
         {
           path:'menu',
           element: <Dashboard></Dashboard>
+        },
+        {
+          path:'profile',
+          element:<Profile></Profile> 
         }
       ]
     }
