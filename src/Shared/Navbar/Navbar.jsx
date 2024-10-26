@@ -8,8 +8,9 @@ const Navbar = () => {
         <h2>Logo</h2>
     </div>
     <div className="flex items-center justify-between gap-5">
+        <Link to='/verification'><button className="rounded-full bg-sky-600 px-6 py-2 text-white transition-all duration-300 hover:scale-90">Verification</button></Link>
         <Link to='/login'><button className="rounded-full bg-sky-600 px-6 py-2 text-white transition-all duration-300 hover:scale-90">Log In</button></Link>
-        <button className="rounded-full bg-sky-600 px-6 py-2 text-white transition-all duration-300 hover:scale-90">Register</button>
+       <Link to='dashboard'> <button className="rounded-full bg-sky-600 px-6 py-2 text-white transition-all duration-300 hover:scale-90">Dashboard</button></Link>
     </div>
 </nav>
    
