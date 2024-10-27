@@ -29,14 +29,14 @@ const DashBoardLayout = () => {
                     <li>Dashboard</li>
                   </ul></Link>
                   {/* users */}
-                  <ul className='flex px-6 items-center py-3 hover:bg-[#01010133] rounded-lg gap-3'>
+                 <Link to='users'> <ul className='flex px-6 items-center py-3 hover:bg-[#01010133] rounded-lg gap-3'>
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 16V0L1.33333 1.2L2.66667 0L4 1.2L5.33333 0L6.66667 1.2L8 0L9.33333 1.2L10.6667 0L12 1.2L13.3333 0L14.6667 1.2L16 0V16L14.6667 14.8L13.3333 16L12 14.8L10.6667 16L9.33333 14.8L8 16L6.66667 14.8L5.33333 16L4 14.8L2.66667 16L1.33333 14.8L0 16ZM2.66667 12H13.3333V10.4H2.66667V12ZM2.66667 8.8H13.3333V7.2H2.66667V8.8ZM2.66667 5.6H13.3333V4H2.66667V5.6Z" fill="#010101"/>
 </svg>
 
 
                     <li>Users</li>
-                  </ul>
+                  </ul></Link>
                   {/* subcriptions */}
                   <ul className='flex px-6 items-center py-3 hover:bg-[#01010133] rounded-lg gap-3'>
                   <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">

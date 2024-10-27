@@ -6,6 +6,7 @@ import Verification from '../Pages/Verification/Verification';
 import DashBoardLayout from '../Layout/DashBoardLayout';
 import Dashboard from '../Pages/Dashboard/Dashboard';
 import Profile from '../Pages/Profile/Profile';
+import Users from '../Pages/Users/Users';
 
 const Router = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ const Router = createBrowserRouter([
         {
           path:'profile',
           element:<Profile></Profile> 
+        },
+        {
+          path:'users',
+          element:<Users></Users> 
         }
       ]
     }
