@@ -1,4 +1,5 @@
 import React from 'react';
+import profile from '../../assets/Images/userinfopic.png'
 
 const Modal = () => {
     return (
@@ -17,13 +18,69 @@ const Modal = () => {
 
                                </div></button>
 <dialog id="my_modal_1" className="modal">
-  <div className="modal-box">
-    <h3 className="font-bold text-lg">Hello!</h3>
-    <p className="py-4">Press ESC key or click the button below to close</p>
+  <div className="modal-box w-[755px]  bg-[#1E1D1D] h-[600px]">
+    <p className='text-xl text-center text-[#D0FD3E]'>User Information</p>
+    <div className='flex justify-between'>
+      <div className='my-6'>
+         <div>
+         <img className='w-24 relative h-28 mx-2 rounded-full' src={profile} alt="" />
+         <div className='w-20 ml-4 absolute inset-0 my-10 top-10 left-28 flex justify-center items-center text-xs text-[#D0FD3E] bg-[#D0FD3E1A] h-8 rounded-xl'>
+         SUBSCRIBER</div>
+         
+         </div>
+         <div className='flex flex-col justify-center'>
+          <p className='text-[#D0FD3E] text-lg'>Deborah Moore</p>
+          <p className='text-gray-400 px-2'>john@gmail.com</p>
+          <p className='text-gray-400 px-2'>+78405057379</p>
+         </div>
+      </div>
+      <div className='my-6'>
+           <div className='relative flex'>
+            <div className='w-16 absolute flex justify-center items-center rounded-full inset-0 h-8 bg-[#D0FD3E] '>
+              <p className=''>Day</p>
+            </div>
+           <div>
+           <div className='w-40 ml-12 flex justify-center gap-6 items-center rounded-full h-8 bg-black'>
+             <p  className='text-white'>Week</p>
+             <p  className='text-white'>Month</p>
+            </div>
+            <p className='text-white text-center my-6'>Nov 29, 2023</p>
+            <div className='w-40 mx-auto h-40 rounded-full bg-white'>
+
+            </div>
+           </div>
+           </div>
+      </div>
+    </div>
+
+    <div className='flex items-end gap-4'>
+      <div className='w-[255px] h-[285px] rounded-lg bg-[#D0FD3E0D] border border-[#D0FD3EB2]'>
+           <p className='px-4 pt-4 text-white '>DATE OF BIRTH</p>
+           <p className='px-4 text-gray-400 '>25-23-2020</p>
+           <p className='px-4 pt-4 text-white '>WEIGHT</p>
+           <p className='px-4 text-gray-400 '>50 KGs</p>
+           <p className='px-4 pt-4 text-white '>HEIGHT</p>
+           <p className='px-4 text-gray-400 '>176 cms</p>
+           <p className='px-4 pt-4 text-white '>GENDER</p>
+           <p className='px-4 text-gray-400 '>Female</p>
+      </div>
+      <div className='w-[255px] h-[150px] rounded-lg bg-[#D0FD3E0D] border border-[#D0FD3EB2]'>
+      <p className='px-4 pt-4 text-white '>SUBSCRIPTION</p>
+      <p className='px-4 text-gray-400 '>Basic Gym Monthly</p>
+      <p className='px-4 pt-4 text-white '>REGISTERED ON</p>
+      <p className='px-4 text-gray-400 '>Friday, July 26, 2023</p>
+      </div>
+      <div>
+
+      </div>
+    </div>
+
+
     <div className="modal-action">
       <form method="dialog">
         {/* if there is a button in form, it will close the modal */}
-        <button className="btn">Close</button>
+        <button className="btn border border-[#D0FD3E] text-[#D0FD3E] px-6 bg-transparent">Back</button>
+        <button className="btn bg-[#D0FD3E] ml-6 border-[#D0FD3E]">DELETE</button>
       </form>
     </div>
   </div>
