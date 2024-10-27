@@ -38,16 +38,16 @@ const DashBoardLayout = () => {
                     <li>Users</li>
                   </ul></Link>
                   {/* subcriptions */}
-                  <ul className='flex px-6 items-center py-3 hover:bg-[#01010133] rounded-lg gap-3'>
+                 <Link to='subscription'> <ul className='flex px-6 items-center py-3 hover:bg-[#01010133] rounded-lg gap-3'>
                   <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M14 12H8.5V0H14C14.5304 0 15.0391 0.210714 15.4142 0.585786C15.7893 0.960859 16 1.46957 16 2V10C16 10.5304 15.7893 11.0391 15.4142 11.4142C15.0391 11.7893 14.5304 12 14 12ZM2 0H7.5V12H2C1.46957 12 0.960859 11.7893 0.585786 11.4142C0.210714 11.0391 0 10.5304 0 10V2C0 1.46957 0.210714 0.960859 0.585786 0.585786C0.960859 0.210714 1.46957 0 2 0ZM10.5 2C10.3674 2 10.2402 2.05268 10.1464 2.14645C10.0527 2.24021 10 2.36739 10 2.5C10 2.63261 10.0527 2.75979 10.1464 2.85355C10.2402 2.94732 10.3674 3 10.5 3H14C14.1326 3 14.2598 2.94732 14.3536 2.85355C14.4473 2.75979 14.5 2.63261 14.5 2.5C14.5 2.36739 14.4473 2.24021 14.3536 2.14645C14.2598 2.05268 14.1326 2 14 2H10.5Z" fill="#010101"/>
 </svg>
 
 
                     <li>Subcriptions</li>
-                  </ul>
+                  </ul></Link>
                   {/* videos */}
-                  <ul className='flex px-6 items-center py-3 hover:bg-[#01010133] rounded-lg gap-3'>
+                 <Link to='workouts'> <ul className='flex px-6 items-center py-3 hover:bg-[#01010133] rounded-lg gap-3'>
                   <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M12.2 2.59961H1.8C1.35817 2.59961 1 2.95778 1 3.39961V16.1996C1 16.6414 1.35817 16.9996 1.8 16.9996H12.2C12.6418 16.9996 13 16.6414 13 16.1996V3.39961C13 2.95778 12.6418 2.59961 12.2 2.59961Z" fill="#010101" stroke="#010101" stroke-width="1.5" stroke-linejoin="round"/>
 <path d="M4.59688 1V3.4V1ZM9.39687 1V3.4V1ZM3.79688 7H10.1969H3.79688ZM3.79688 10.2H8.59688H3.79688ZM3.79688 13.4H6.99688H3.79688Z" fill="#010101"/>
@@ -55,8 +55,8 @@ const DashBoardLayout = () => {
 </svg>
 
 
-                    <li>Videos</li>
-                  </ul>
+                    <li>Workouts</li>
+                  </ul></Link>
 <div className='h-96 flex items-end justify-center '>
 <div className='bg-[#1A1D26] rounded-md gap-3 px-6 py-3 flex justify-center items-center'>
 <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">

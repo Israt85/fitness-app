@@ -41,11 +41,11 @@ const DashboardNav = () => {
             </div>
            <div className='border-l-2 mx-6 h-12'>
            <div className='flex gap-2  justify-center items-center w-52'>
-                <a href="profile"><div>
-                <img className='w-12 h-12 rounded-full' src={john} alt="" />
-                </div></a>
                 <div>
-                       <h1 className='text-xl'>Jhon Doe</h1>
+                <img className='w-12 h-12 rounded-full' src={john} alt="" />
+                </div>
+                <div>
+                <a href="profile"><ul><li className='text-xl'>Jhon Doe</li></ul></a>
                        <p className='text-gray-400' >admin@admin.com</p>
                 </div>
             </div>

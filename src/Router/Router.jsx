@@ -7,6 +7,8 @@ import DashBoardLayout from '../Layout/DashBoardLayout';
 import Dashboard from '../Pages/Dashboard/Dashboard';
 import Profile from '../Pages/Profile/Profile';
 import Users from '../Pages/Users/Users';
+import Worksout from '../Pages/Worksout/Worksout';
+import Subscription from '../Pages/Subscription/Subscription';
 
 const Router = createBrowserRouter([
     {
@@ -37,6 +39,14 @@ const Router = createBrowserRouter([
         {
           path:'users',
           element:<Users></Users> 
+        },
+        {
+          path:'workouts',
+          element: <Worksout></Worksout>
+        },
+        {
+          path:'subscription',
+          element: <Subscription></Subscription>
         }
       ]
     }
