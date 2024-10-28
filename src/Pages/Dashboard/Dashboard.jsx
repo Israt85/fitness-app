@@ -1,8 +1,10 @@
 import profile from '../../assets/Images/profileimg.jpeg'
+import Example from '../../Components/ColumnChart';
 
 const Dashboard = () => {
     return (
-        <div className="">
+       <div>
+         <div className="">
            <div className="flex justify-between items-center">
            <div className="flex p-6 gap-4">
             <svg width="39" height="27" viewBox="0 0 39 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -119,6 +121,15 @@ const Dashboard = () => {
           </div>
           </div>
         </div>
+        <div>
+          <div className='w-[605px] mx-8 my-4 bg-[#424756] h-[300px] '>
+              <Example></Example>
+          </div>
+          <div>
+
+          </div>
+        </div>
+       </div>
     );
 };
 
