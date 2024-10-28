@@ -23,22 +23,22 @@ export default function Form() {
 </div>
 
                 <div className="space-y-2">
-                    <div className="relative bg-gray-500">
+                    <div className="relative bg-transparent">
                         <input
                             id="pass"
-                            className="h-16 w-full rounded bg-transparent pl-10 outline-none ring-1 ring-zinc-400 dark:ring-gray-500"
+                            className="h-16 border border-[#B7D235] w-full rounded bg-transparent pl-6 text-white outline-none ring-1 "
                             placeholder="Password"
                             name="password"
                             type="password"
                         />
-                        <span className="absolute left-2 top-4">
+                        {/* <span className="absolute left-2 top-4">
                         <svg width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M11.386 13.521C10.9544 13.5227 10.5353 13.6657 10.1931 13.928C9.85091 14.1904 9.60459 14.5575 9.49201 14.973C9.37944 15.3886 9.40683 15.8295 9.56998 16.2279C9.73313 16.6264 10.023 16.9604 10.395 17.1787V19.9806H12.4011V17.1787C12.6955 17.005 12.9398 16.7584 13.1102 16.4627C13.2807 16.1671 13.3716 15.8325 13.374 15.4915C13.374 15.2317 13.3225 14.9745 13.2224 14.7346C13.1224 14.4948 12.9757 14.277 12.791 14.0939C12.6062 13.9108 12.387 13.7659 12.1459 13.6676C11.9047 13.5693 11.6465 13.5195 11.386 13.521Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18.8131 8.99584H3.95476C2.51311 8.99584 1.34442 10.1613 1.34442 11.5989V21.8969C1.34442 23.3345 2.51311 24.5 3.95476 24.5H18.8131C20.2548 24.5 21.4235 23.3345 21.4235 21.8969V11.5989C21.4235 10.1613 20.2548 8.99584 18.8131 8.99584Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M4.95099 8.99612V7.42341C4.95099 5.71982 5.62962 4.086 6.83759 2.88137C8.04556 1.67675 9.68392 1 11.3922 1C13.1006 1 14.7389 1.67675 15.9469 2.88137C17.1549 4.086 17.8335 5.71982 17.8335 7.42341V8.99612" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-                        </span>
+                        </span> */}
                     </div>
                 </div>
 <p className='text-[#D0FD3E] flex justify-end'>Forget password?</p>
