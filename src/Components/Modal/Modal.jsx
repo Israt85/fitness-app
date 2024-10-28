@@ -1,5 +1,6 @@
 import React from 'react';
 import profile from '../../assets/Images/userinfopic.png'
+import Example3 from '../UserPieChart';
 
 const Modal = () => {
     return (
@@ -45,8 +46,8 @@ const Modal = () => {
              <p  className='text-white'>Month</p>
             </div>
             <p className='text-white text-center my-6'>Nov 29, 2023</p>
-            <div className='w-40 mx-auto h-40 rounded-full bg-white'>
-
+            <div className='relative w-40 mx-auto h-40 rounded-full bg-white'>
+     <Example3></Example3>
             </div>
            </div>
            </div>
