@@ -2,6 +2,7 @@ import React from 'react';
 import DashboardNav from '../Shared/DashboardNav/DashboardNav';
 import { Link, Outlet } from 'react-router-dom';
 import logo from '../assets/Images/logologin.png'
+import Modal3 from '../Components/Modal3';
 
 const DashBoardLayout = () => {
     return (
@@ -62,7 +63,7 @@ const DashBoardLayout = () => {
 <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.67604 0.51999C2.38042 0.519698 2.08961 0.594724 1.83104 0.73799C1.56586 0.873152 1.34247 1.07793 1.1848 1.33037C1.02714 1.58281 0.941142 1.8734 0.936035 2.17099V12.848C0.941142 13.1456 1.02714 13.4362 1.1848 13.6886C1.34247 13.9411 1.56586 14.1458 1.83104 14.281C2.0943 14.4272 2.39101 14.5026 2.69215 14.4998C2.99329 14.497 3.28854 14.4161 3.54904 14.265L12.179 8.92699C12.4454 8.79278 12.6692 8.58723 12.8255 8.33327C12.9819 8.07931 13.0646 7.78691 13.0645 7.48868C13.0644 7.19045 12.9814 6.89812 12.8249 6.64426C12.6684 6.39041 12.4445 6.18502 12.178 6.05099L3.54804 0.75299C3.28292 0.599974 2.98214 0.519604 2.67604 0.51999Z" fill="#D0FD3E"/>
 </svg>
-<p className='text-[#D0FD3E]'>Go Live</p>
+<Modal3></Modal3>
 </div>
 </div>
 <img className='' src={logo} alt="" />
