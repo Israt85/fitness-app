@@ -1,5 +1,7 @@
 import profile from '../../assets/Images/profileimg.jpeg'
 import Example from '../../Components/ColumnChart';
+import Example1 from '../../Components/PieChart';
+import img1 from '../../assets/Images/verification.png'
 
 const Dashboard = () => {
     return (
@@ -121,13 +123,147 @@ const Dashboard = () => {
           </div>
           </div>
         </div>
-        <div>
-          <div className='w-[605px] mx-8 my-4 bg-[#424756] h-[300px] '>
+        <div className='flex justify-center gap-2 items-center'>
+          <div className='w-[555px] ml-2 my-4 bg-[#424756] h-[300px] '>
               <Example></Example>
           </div>
-          <div>
-
+          <div className='w-[400px] h-[300px] bg-[#424756]'>
+               <Example1></Example1>
           </div>
+        </div>
+        <div className='w-[970px] items-center justify-center grid grid-cols-6 mx-auto bg-[#424756] h-[200px]'>
+        <div className='w-40 rounded-md  h-48 '>
+                <img className='h-32 mx-auto w-32 object-cover' src={img1} alt="" />
+               <div className='flex justify-between'>
+               <div className='text-white mx-2'>
+                    <p className='text-sm text-center font-bold'>Arms Exercise</p>
+                    <div className='flex gap-2'>
+                    <div className="rating ml-2 my-2">
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+  <input
+    type="radio"
+    name="rating-2"
+    className="mask mask-star-2 bg-orange-400 w-2 h-2"
+    defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2 "  defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+</div>
+<p className='text-xs'>4.3 ratings</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        <div className='w-40 rounded-md  h-48 '>
+                <img className='h-32 w-32 object-cover' src={img1} alt="" />
+               <div className='flex justify-between'>
+               <div className='text-white mx-2'>
+                    <p className='text-sm font-bold'>Arms Exercise</p>
+                    <div className='flex gap-2'>
+                    <div className="rating my-2">
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+  <input
+    type="radio"
+    name="rating-2"
+    className="mask mask-star-2 bg-orange-400 w-2 h-2"
+    defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2 "  defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+</div>
+<p className='text-xs'>4.3 ratings</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        <div className='w-40 rounded-md  h-48 '>
+                <img className='h-32 w-32 object-cover' src={img1} alt="" />
+               <div className='flex justify-between'>
+               <div className='text-white mx-2'>
+                    <p className='text-sm font-bold'>Arms Exercise</p>
+                    <div className='flex gap-2'>
+                    <div className="rating my-2">
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+  <input
+    type="radio"
+    name="rating-2"
+    className="mask mask-star-2 bg-orange-400 w-2 h-2"
+    defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2 "  defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+</div>
+<p className='text-xs'>4.3 ratings</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        <div className='w-40 rounded-md  h-48 '>
+                <img className='h-32 w-32 object-cover' src={img1} alt="" />
+               <div className='flex justify-between'>
+               <div className='text-white mx-2'>
+                    <p className='text-sm font-bold'>Arms Exercise</p>
+                    <div className='flex gap-2'>
+                    <div className="rating my-2">
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+  <input
+    type="radio"
+    name="rating-2"
+    className="mask mask-star-2 bg-orange-400 w-2 h-2"
+    defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2 "  defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+</div>
+<p className='text-xs'>4.3 ratings</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        <div className='w-40 rounded-md  h-48 '>
+                <img className='h-32 w-32 object-cover' src={img1} alt="" />
+               <div className='flex justify-between'>
+               <div className='text-white mx-2'>
+                    <p className='text-sm font-bold'>Arms Exercise</p>
+                    <div className='flex gap-2'>
+                    <div className="rating my-2">
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+  <input
+    type="radio"
+    name="rating-2"
+    className="mask mask-star-2 bg-orange-400 w-2 h-2"
+    defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2 "  defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+</div>
+<p className='text-xs'>4.3 ratings</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        <div className='w-40 rounded-md  h-48 '>
+                <img className='h-32 w-32 object-cover' src={img1} alt="" />
+               <div className='flex justify-between'>
+               <div className='text-white mx-2'>
+                    <p className='text-sm font-bold'>Arms Exercise</p>
+                    <div className='flex gap-2'>
+                    <div className="rating my-2">
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+  <input
+    type="radio"
+    name="rating-2"
+    className="mask mask-star-2 bg-orange-400 w-2 h-2"
+    defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2 "  defaultChecked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400 w-2 h-2"  defaultChecked />
+</div>
+<p className='text-xs'>4.3 ratings</p>
+                    </div>
+                </div>
+               </div>
+            </div>
         </div>
        </div>
     );
