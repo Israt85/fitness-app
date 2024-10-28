@@ -12,14 +12,34 @@ const Modal2 = () => {
 </svg>
 
                        </div></button>
-<dialog id="my_modal_1" className="modal">
+<dialog id="my_modal_1" className="modal flex justify-end">
   
-  <div className=" w-60 rounded-lg flex justify-end items-end h-60 bg-[#1E1D1D] border border-[#D1D72F8A]">
-    
-    <div className="modal-action">
+  <div className=" w-52 rounded-lg mx-20 h-32 bg-[#1E1D1D] border border-[#D1D72F8A]">
+      
+       {/* Open the modal using document.getElementById('ID').showModal() method */}
+<button className="w-full mx-auto" onClick={()=>document.getElementById('my_modal_6').showModal()}> <p className='text-center p-6 text-base'>Cancel Subscription</p></button>
+<dialog id="my_modal_6" className="modal modal-bottom sm:modal-middle">
+  <div className="p-6 w-[550px] h-[200px] bg-[#1E1D1D] border border-[#D1D72F8A]">
+    <p className='text-center text-xl text-[#D0FD3E]'>Cancel Subscription</p>
+    <p className='text-center
+     text-lg py-2 text-gray-400'>Do you really want to cancel the subscription of this user? In case of cancellation, you have to refund the payment.</p>
+   
+    <div className="modal-action flex my-2 justify-center items-center">
       <form method="dialog">
         {/* if there is a button in form, it will close the modal */}
-        <button className="btn">Close</button>
+        <button className="border text-[#D0FD3E] border-[#D0FD3E] px-5 py-3 rounded-md ml-6">Cancel</button>
+        <button className="bg-[#D0FD3E] text-lg text-black font-bold px-5 py-3 rounded-md ml-6">Refund</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+<form method="dialog">
+        {/* if there is a button in form, it will close the modal */}
+        <button className="w-full mx-auto"><p className='text-center text-base '>Payment Complete</p></button>
+      </form>
+    <div className="modal-action">
+      <form method="dialog">
+       
       </form>
     </div>
   </div>
