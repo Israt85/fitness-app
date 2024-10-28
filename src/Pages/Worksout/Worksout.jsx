@@ -10,7 +10,7 @@ const Worksout = () => {
 </svg>
 <p className="text-xl text-white">Workouts</p>
         </div>
-        <div className="h-[700px] my-4 rounded-lg w-[980px] mx-auto bg-[#424756] border border-[#8B909F]">
+        <div className="h-[700px] my-4 rounded-lg w-[950px] mx-auto bg-[#424756] border border-[#8B909F]">
           <div className="flex justify-end m-4">
             <div>
             <div className="flex items-center">
