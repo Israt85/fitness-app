@@ -10,6 +10,7 @@ import Users from '../Pages/Users/Users';
 import Worksout from '../Pages/Worksout/Worksout';
 import Subscription from '../Pages/Subscription/Subscription';
 import AddWorkouts from '../Pages/AddWorkouts/AddWorkouts';
+import BasicInfo from '../Pages/BasicInfo/BasicInfo';
 
 const Router = createBrowserRouter([
     {
@@ -35,7 +36,12 @@ const Router = createBrowserRouter([
         },
         {
           path:'profile',
-          element:<Profile></Profile> 
+          element:<Profile></Profile> ,
+          children:[
+            { path: 'basicinfo',
+              element:<BasicInfo></BasicInfo>
+           }
+          ]
         },
         {
           path:'users',
@@ -54,7 +60,8 @@ const Router = createBrowserRouter([
           element: <Subscription></Subscription>
         }
       ]
-    }
+    },
+    
   ]);
 
 export default Router;

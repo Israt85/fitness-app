@@ -1,4 +1,5 @@
 import profile from '../../assets/Images/john.jpeg'
+import InfoPass from '../../Layout/InfoPass';
 
 const Profile = () => {
     return (
@@ -18,92 +19,9 @@ const Profile = () => {
            </div>
         </div>
        <div className="flex justify-around">
-       <div className="w-72 h-32 flex flex-col justify-center items-center bg-[#424756] border border-[#8B909F] rounded-lg ml-6">
-           <div className="flex justify-center gap-6 items-center">
-           <div>
-           <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.8 12V11.9999C0.800142 11.7102 0.85747 11.4234 0.968695 11.1559C1.07992 10.8884 1.24286 10.6455 1.44816 10.4412C1.65346 10.2368 1.89708 10.0749 2.16507 9.96491C2.43297 9.85491 2.71995 9.79887 3.00956 9.8H3.009L0.8 12ZM0.8 12C0.8 13.7676 1.67522 15.1026 3.0274 15.9656L3.02751 15.9657M0.8 12L3.02751 15.9657M3.02751 15.9657C4.35178 16.8096 6.12108 17.2 8 17.2C9.87892 17.2 11.6482 16.8096 12.9725 15.9657L12.9725 15.9656M3.02751 15.9657L12.9725 15.9656M12.9725 15.9656C14.3249 15.1036 15.2 13.7665 15.2 12M12.9725 15.9656L15.2 12M15.2 12C15.2 11.4165 14.9682 10.8569 14.5556 10.4444M15.2 12L14.5556 10.4444M14.5556 10.4444C14.1431 10.0318 13.5835 9.8 13 9.8M14.5556 10.4444L13 9.8M13 9.8L3.0098 9.8L13 9.8ZM12.2196 14.7843L12.2194 14.7844C11.1917 15.4404 9.71108 15.8 8 15.8C6.28892 15.8 4.80828 15.4404 3.78061 14.7844L3.78058 14.7844C2.78086 14.1465 2.2 13.2335 2.2 12C2.2 11.5588 2.55716 11.2 3.009 11.2H13C13.2122 11.2 13.4157 11.2843 13.5657 11.4343C13.7157 11.5843 13.8 11.7878 13.8 12C13.8 13.2327 13.22 14.1475 12.2196 14.7843ZM8 0.8C6.88609 0.8 5.8178 1.2425 5.03015 2.03015C4.2425 2.8178 3.8 3.88609 3.8 5C3.8 6.11391 4.2425 7.1822 5.03015 7.96985C5.8178 8.7575 6.88609 9.2 8 9.2C9.11391 9.2 10.1822 8.7575 10.9698 7.96985C11.7575 7.1822 12.2 6.11391 12.2 5C12.2 3.88609 11.7575 2.8178 10.9698 2.03015C10.1822 1.2425 9.11391 0.8 8 0.8ZM5.2 5C5.2 4.25739 5.495 3.5452 6.0201 3.0201C6.5452 2.495 7.25739 2.2 8 2.2C8.74261 2.2 9.4548 2.495 9.9799 3.0201C10.505 3.5452 10.8 4.25739 10.8 5C10.8 5.74261 10.505 6.4548 9.9799 6.9799C9.4548 7.505 8.74261 7.8 8 7.8C7.25739 7.8 6.5452 7.505 6.0201 6.9799C5.495 6.4548 5.2 5.74261 5.2 5Z" fill="#D0FD3E" stroke="#D0FD3E" stroke-width="0.4"/>
-</svg>
-<svg className="mt-8" width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.777344 9.88889C0.777344 9.4174 0.964645 8.96521 1.29804 8.63181C1.63144 8.29842 2.08363 8.11111 2.55512 8.11111H11.444C11.9155 8.11111 12.3677 8.29842 12.7011 8.63181C13.0345 8.96521 13.2218 9.4174 13.2218 9.88889V15.2222C13.2218 15.6937 13.0345 16.1459 12.7011 16.4793C12.3677 16.8127 11.9155 17 11.444 17H2.55512C2.08363 17 1.63144 16.8127 1.29804 16.4793C0.964645 16.1459 0.777344 15.6937 0.777344 15.2222V9.88889Z" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M3.44531 8.11111V4.55556C3.44531 3.61256 3.81991 2.70819 4.48671 2.0414C5.15351 1.3746 6.05788 1 7.00087 1C7.94386 1 8.84823 1.3746 9.51503 2.0414C10.1818 2.70819 10.5564 3.61256 10.5564 4.55556V8.11111M6.11198 12.5556C6.11198 12.7913 6.20563 13.0174 6.37233 13.1841C6.53903 13.3508 6.76512 13.4444 7.00087 13.4444C7.23662 13.4444 7.46271 13.3508 7.62941 13.1841C7.79611 13.0174 7.88976 12.7913 7.88976 12.5556C7.88976 12.3198 7.79611 12.0937 7.62941 11.927C7.46271 11.7603 7.23662 11.6667 7.00087 11.6667C6.76512 11.6667 6.53903 11.7603 6.37233 11.927C6.20563 12.0937 6.11198 12.3198 6.11198 12.5556Z" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-
-           </div>
-<div className="">
-<p className="text-[#D0FD3E] text-lg">Basic information</p>
-<p className="text-white mt-6 text-lg">Password</p>
-</div>
-
-           </div>
-           
-        </div>
-           <div>
-           <div className="w-[650px] border border-[#8B909F] relative rounded-lg h-40 bg-[#424756]">
-           <div className="w-[650px] h-32 absolute top-0 rounded-lg bg-[#D0FD3E33] border border-[#8B909F]">
-
-</div>
-<div>
-<img className='w-24 absolute inset-0 top-14 h-24 rounded-full' src={profile} alt="" />
-<svg className='absolute inset-0 top-24 left-12' width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_10_414)">
-<circle cx="35" cy="34" r="15" fill="#010101"/>
-<circle cx="35" cy="34" r="14.5" stroke="#8B909F"/>
-</g>
-<path d="M31.3543 36.1196L35.9701 30.5816L37.8492 32.8364L33.1171 38.515C33.1171 38.515 33.1171 38.5151 33.117 38.5151C32.9719 38.6891 32.7996 38.7996 32.6254 38.8493L32.6252 38.8494L30.5188 39.4515L31.0481 36.7824C31.0481 36.7824 31.0481 36.7824 31.0481 36.7823C31.0481 36.7823 31.0481 36.7823 31.0481 36.7822C31.0998 36.5225 31.2088 36.2942 31.3543 36.1196C31.3543 36.1196 31.3543 36.1196 31.3543 36.1196ZM30.3248 39.5069C30.3248 39.5069 30.3249 39.5069 30.3249 39.5069L30.3248 39.5069ZM39.092 31.3446L39.0918 31.3448L39.0299 31.4191L37.1508 29.1639L37.3297 28.949C37.5815 28.6469 37.9013 28.5 38.2107 28.5C38.5202 28.5 38.84 28.6467 39.0918 28.9488L39.4758 28.6286L39.0918 28.9488C39.3458 29.2535 39.5 29.6834 39.5 30.1466C39.5 30.6099 39.3459 31.0398 39.092 31.3446Z" fill="#F58115" stroke="#8B909F"/>
-<defs>
-<filter id="filter0_d_10_414" x="0" y="0" width="70" height="70" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="1"/>
-<feGaussianBlur stdDeviation="10"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_10_414"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_10_414" result="shape"/>
-</filter>
-</defs>
-</svg>
-</div>
-
-
-</div>
-<div className='w-[650px] h-80 rounded-lg mt-6 bg-[#424756] border border-[#8B909F] '>
-    <div className='flex items-center mx-6 my-4 gap-2 border-b-2 pb-4'>
-    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM10 15C9.45 15 9 14.55 9 14V10C9 9.45 9.45 9 10 9C10.55 9 11 9.45 11 10V14C11 14.55 10.55 15 10 15ZM11 7H9V5H11V7Z" fill="#F8F8F8"/>
-</svg>
-<p className='text-xl font-semibold text-white'>Basic information</p>
-
-    </div>
-    <div className='flex items-center justify-around w-full '>
-        <p className='text-xl text-white'>Full name</p>
-        <div className='gap-4 flex'>
-            <input className='h-10 rounded-lg bg-transparent border border-[#E5E5E580] ' placeholder='       Michael' type="text" name="" id="" />
-            <input className='h-10 rounded-lg bg-transparent border border-[#E5E5E580]' placeholder='    Stirling' type="text" name="" id="" />
-        </div>
-    </div>
-    <div className='flex justify-around my-4 w-full '>
-        <p className='text-xl px-4  text-white'>Phone <span className='text-sm'>(Compulsory)</span></p>
-      
-            <input className='h-10 mx-auto w-96 rounded-lg bg-transparent border border-[#E5E5E580] ' placeholder='       +92 325 3545 34534' type="text" name="" id="" />
-     
-    </div>
-    <div className='flex justify-around my-4 w-full '>
-        <p className='text-xl px-6  text-white'>Email <span className='text-sm'>(Compulsory)</span></p>
-      
-            <input className='h-10 mx-auto w-96 rounded-lg bg-transparent border border-[#E5E5E580] ' placeholder='       loremipsum@gmail.com' type="text" name="" id="" />
-     
-    </div>
-    <div className='flex justify-end items-end p-2'>
-        <button className='text-xl px-6 py-2 rounded-md bg-[#D0FD3E] font-semibold'>Update</button>
-    </div>
-
-</div>
-
-
-           </div>
-
+      <InfoPass></InfoPass>
+        
+        
        </div>
      </div>
     );
