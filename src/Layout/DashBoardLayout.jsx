@@ -3,7 +3,6 @@ import DashboardNav from '../Shared/DashboardNav/DashboardNav';
 import { Link, NavLink, Outlet } from 'react-router-dom';
 import logo from '../assets/Images/logologin.png'
 import Modal3 from '../Components/Modal3';
-import SearchMenu from '../Components/SearchMenu';
 
 const DashBoardLayout = () => {
     return (
@@ -11,7 +10,16 @@ const DashBoardLayout = () => {
             <DashboardNav></DashboardNav>
            <div className='flex'>
            <div className='w-72 p-6 bg-[#D0FD3E] min-h-screen'>
-            <SearchMenu></SearchMenu>
+           <div className="relative w-20">
+				<span className="absolute inset-y-0 left-0 flex items-center pl-2">
+					<button type="submit" title="Search" className="p-1 focus:outline-none focus:ring">
+						<svg fill="currentColor" viewBox="0 0 512 512" className="w-4 h-4 dark:text-gray-100">
+							<path d="M479.6,399.716l-81.084-81.084-62.368-25.767A175.014,175.014,0,0,0,368,192c0-97.047-78.953-176-176-176S16,94.953,16,192,94.953,368,192,368a175.034,175.034,0,0,0,101.619-32.377l25.7,62.2L400.4,478.911a56,56,0,1,0,79.2-79.195ZM48,192c0-79.4,64.6-144,144-144s144,64.6,144,144S271.4,336,192,336,48,271.4,48,192ZM456.971,456.284a24.028,24.028,0,0,1-33.942,0l-76.572-76.572-23.894-57.835L380.4,345.771l76.573,76.572A24.028,24.028,0,0,1,456.971,456.284Z"></path>
+						</svg>
+					</button>
+				</span>
+				<input type="search" name="Search" placeholder="Search menu..." className="w-52 py-2 pl-10 text-sm  focus:outline-none  bg-[#FFFFFF99] border rounded-lg" />
+			</div>
                  <div className='border-b-2 '></div>
 
                 {/* dashboard */}
@@ -48,6 +56,20 @@ const DashBoardLayout = () => {
                     <li>Subcriptions</li>
                   </ul></NavLink>
                   {/* videos */}
+                  <NavLink 
+  to="videos" 
+  className={({ isActive }) => 
+    `flex px-6 items-center py-3 rounded-lg gap-3 ${isActive ? 'bg-[#01010133]' : 'hover:bg-[#01010133]'}`
+  }
+> 
+  <ul className='flex items-center gap-3'>
+  <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.2 1.59961H1.8C1.35817 1.59961 1 1.95778 1 2.39961V15.1996C1 15.6414 1.35817 15.9996 1.8 15.9996H12.2C12.6418 15.9996 13 15.6414 13 15.1996V2.39961C13 1.95778 12.6418 1.59961 12.2 1.59961Z" fill="#010101" stroke="#010101" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>
+
+    <li>Videos</li>
+  </ul>
+</NavLink>
                   <NavLink 
   to="workouts" 
   className={({ isActive }) => 

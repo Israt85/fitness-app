@@ -9,6 +9,7 @@ import Profile from '../Pages/Profile/Profile';
 import Users from '../Pages/Users/Users';
 import Worksout from '../Pages/Worksout/Worksout';
 import Subscription from '../Pages/Subscription/Subscription';
+import AddWorkouts from '../Pages/AddWorkouts/AddWorkouts';
 
 const Router = createBrowserRouter([
     {
@@ -41,8 +42,12 @@ const Router = createBrowserRouter([
           element:<Users></Users> 
         },
         {
-          path:'workouts',
+          path:'videos',
           element: <Worksout></Worksout>
+        },
+        {
+          path: 'workouts',
+          element: <AddWorkouts></AddWorkouts>
         },
         {
           path:'subscription',
