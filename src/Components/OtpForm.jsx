@@ -10,10 +10,10 @@ export const OtpForm = () => {
   return (
     <InputOTP maxLength={6}>
       <InputOTPGroup>
-        <InputOTPItem className='mr-6 text-white border-[#D0FD3E]' index={0} />
-        <InputOTPItem className='mr-6 text-white  border-[#D0FD3E]' index={1} />
-        <InputOTPItem className='mr-6 text-white border-[#D0FD3E]' index={2} />
-        <InputOTPItem className='mr-6 text-white border-[#D0FD3E]' index={3} />
+        <InputOTPItem className='md:mr-6 text-white border-[#D0FD3E]' index={0} />
+        <InputOTPItem className='md:mr-6 text-white  border-[#D0FD3E]' index={1} />
+        <InputOTPItem className='md:mr-6 text-white border-[#D0FD3E]' index={2} />
+        <InputOTPItem className='md:mr-6 text-white border-[#D0FD3E]' index={3} />
         {/* <div className="relative flex items-center">
   <InputOTPItem onClick={handleclick} className="mr-6 bg-[#F6F6F666]" index={1} />
   <span className="text-[#D0FD3E] absolute left-5 top-4 font-bold text-4xl">*</span>

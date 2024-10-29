@@ -5,10 +5,10 @@ const Login = () => {
     return (
         <div className="max-w-7xl overflow-hidden h-full bg-[#1A1D26] mx-auto">
             <div className="flex">
-                <div className="w-full border">
+                <div className="w-full">
                  <Form></Form>
                 </div>
-                <div className="w-full relative">
+                <div className="w-full md:block hidden relative">
                        <img className='w-full h-full' src={loginImg} alt="" />
                        <div className='absolute inset-0 w-full bg-[#0000008F]'>
                           <div className='absolute bottom-0 left-0 right-0 p-6 flex justify-center'>

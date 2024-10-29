@@ -10,7 +10,7 @@ export default function Form() {
            
             <form className="space-y-6">
             <div className="space-y-2">
-  <label htmlFor="email" className="block text-[#B7D235]">
+  <label htmlFor="email" className="block mt-2 text-[#B7D235]">
     Enter Email Address
   </label>
   <div className="relative">
@@ -51,7 +51,7 @@ export default function Form() {
                 
                 <Link to='/verification'
                 >
-                    <button className="rounded w-full font-bold text-lg px-5 py-3 my-4 ring-1 ring-zinc-400 bg-[#D0FD3E]">Login</button>
+                     <button className="rounded w-full font-bold text-lg px-5 py-3 my-4 ring-1 ring-zinc-400 bg-[#D0FD3E]">Login</button>
                 </Link>
             </form>
             <div className="my-8 flex items-center">
@@ -61,7 +61,7 @@ export default function Form() {
             </div>
 
             {/* Icons */}
-            <div className="flex justify-center space-x-4 *:border hover:*:bg-zinc-400/20 *:dark:border-zinc-700">
+            <div className="flex justify-center md:flex-row flex-wrap gap-2 space-x-4 *:border hover:*:bg-zinc-400/20 *:dark:border-zinc-700">
                 <button aria-label="Log in with Google" className="rounded-lg px-12 py-3">
                     {/* google */}
                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +73,7 @@ export default function Form() {
 </svg>
 
                 </button>
-                <button aria-label="Log in with Twitter" className="rounded-lg px-12 py-3">
+                <button aria-label="Log in with Twitter" className="rounded-lg px-10 py-3">
                     {/* facebook */}
                     <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M32.9778 16C32.9778 7.1635 25.7944 0 16.9333 0C8.07228 0 0.888885 7.16338 0.888885 16C0.888885 23.986 6.75614 30.6054 14.4264 31.8056V20.625H10.3526V16H14.4264V12.475C14.4264 8.465 16.8218 6.25 20.4865 6.25C22.242 6.25 24.0781 6.5625 24.0781 6.5625V10.5H22.055C20.0617 10.5 19.4403 11.7334 19.4403 12.9988V16H23.8901L23.1788 20.625H19.4403V31.8056C27.1105 30.6054 32.9778 23.9861 32.9778 16Z" fill="#1877F2"/>

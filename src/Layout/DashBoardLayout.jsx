@@ -6,10 +6,10 @@ import Modal3 from '../Components/Modal3';
 
 const DashBoardLayout = () => {
     return (
-        <div>
+        <div className='max-w-7xl mx-auto overflow-hidden'>
             <DashboardNav></DashboardNav>
            <div className='flex'>
-           <div className='w-72 p-6 bg-[#D0FD3E] min-h-screen'>
+           <div className='w-72 p-6 lg:block hidden bg-[#D0FD3E] min-h-screen'>
            <div className="relative w-20">
 				<span className="absolute inset-y-0 left-0 flex items-center pl-2">
 					<button type="submit" title="Search" className="p-1 focus:outline-none focus:ring">

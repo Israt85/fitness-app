@@ -4,11 +4,11 @@ const Verification = () => {
     return (
         <div className="max-w-7xl overflow-hidden h-full bg-[#1A1D26] mx-auto">
         <div className="flex">
-            <div className="w-full border">
+            <div className="w-full">
                 <VerificationForm></VerificationForm>
             </div>
-            <div className="w-full relative">
-                   <img className='w-full' src={verificationImg} alt="" />
+            <div className="w-full md:block hidden relative">
+                   <img className='w-full h-full' src={verificationImg} alt="" />
                    <div className='absolute inset-0 w-full bg-[#0000008F]'>
                       <div className='absolute bottom-0 left-0 right-0 p-6 flex justify-center'>
                       <svg width="54" height="40" viewBox="0 0 54 40" fill="none" xmlns="http://www.w3.org/2000/svg">
