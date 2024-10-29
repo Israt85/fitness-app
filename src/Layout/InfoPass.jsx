@@ -18,7 +18,7 @@ const InfoPass = () => {
            </div>
 <div className="">
 <NavLink to='basicinfo'><p className="text-[#D0FD3E] text-lg">Basic information</p></NavLink>
-<p className="text-white mt-6 text-lg">Password</p>
+<NavLink to='password'><p className="text-white mt-6 text-lg">Password</p></NavLink>
 </div>
 
            </div>

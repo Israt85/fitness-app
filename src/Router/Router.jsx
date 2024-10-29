@@ -11,6 +11,7 @@ import Worksout from '../Pages/Worksout/Worksout';
 import Subscription from '../Pages/Subscription/Subscription';
 import AddWorkouts from '../Pages/AddWorkouts/AddWorkouts';
 import BasicInfo from '../Pages/BasicInfo/BasicInfo';
+import Password from '../Pages/Password/Password';
 
 const Router = createBrowserRouter([
     {
@@ -40,6 +41,10 @@ const Router = createBrowserRouter([
           children:[
             { path: 'basicinfo',
               element:<BasicInfo></BasicInfo>
+           },
+           {
+            path:'password',
+            element: <Password></Password>
            }
           ]
         },
