@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../../assets/Images/logologin.png'
 export default function Form() {
     return (
@@ -48,7 +49,10 @@ export default function Form() {
 </div>
 
                 
-                <button className="rounded w-full font-bold text-lg px-5 py-3 my-4 ring-1 ring-zinc-400 bg-[#D0FD3E]">Login</button>
+                <Link to='/verification'
+                >
+                    <button className="rounded w-full font-bold text-lg px-5 py-3 my-4 ring-1 ring-zinc-400 bg-[#D0FD3E]">Login</button>
+                </Link>
             </form>
             <div className="my-8 flex items-center">
                 <hr className="flex-1 border-gray-400" />

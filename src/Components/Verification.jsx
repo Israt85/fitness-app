@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../assets/Images/logologin.png'
 import { OtpForm } from './OtpForm';
 
@@ -16,7 +17,7 @@ const VerificationForm
         </div>
       <div className='w-full flex flex-col justify-center items-center'>
         <p className='text-[#D0FD3E] py-2'>Change Phone Number or Email Address</p>
-      <button className="rounded-xl w-96  font-bold text-lg px-5 py-4 my-4 ring-1 ring-zinc-400 bg-[#D0FD3E]">Confirm</button>
+     <Link to='/dashboard'> <button className="rounded-xl w-96  font-bold text-lg px-5 py-4 my-4 ring-1 ring-zinc-400 bg-[#D0FD3E]">Confirm</button></Link>
       </div>
        
         <p className='justify-center h-64 text-lg text-gray-400 flex items-end'>© 2023 Andrews | All rights reserved</p>

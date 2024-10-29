@@ -14,12 +14,9 @@ import BasicInfo from '../Pages/BasicInfo/BasicInfo';
 import Password from '../Pages/Password/Password';
 
 const Router = createBrowserRouter([
+   
     {
-      path: "/",
-      element: <MainLayout></MainLayout>,
-    },
-    {
-        path:'/login',
+        path:'/',
         element: <Login></Login>
 
     },
