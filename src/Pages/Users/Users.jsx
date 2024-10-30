@@ -35,7 +35,9 @@ const Users = () => {
                 </div>
               </div>
 {/* table */}
+<div className="z-10">
 <TableComponent></TableComponent>
+</div>
 
 
             </div>

@@ -9,10 +9,10 @@ const AddWorkouts = () => {
 </svg>
 <p className='text-xl font-bold'>Add new Workout</p>
            </div>
-           <div className='w-[950px] text-white bg-[#424756] rounded-lg my-4 mx-auto h-[700px]'>
+           <div className='lg:w-[950px] md:w-[500px] w-[300px] text-white bg-[#424756] rounded-lg my-4 mx-auto lg:h-[700px] h-auto'>
                 <p className='p-4 border-b-2 text-xl'>Workout information</p>
                 <div>
-                <div className='flex justify-around items-center'>
+                <div className='flex lg:flex-row flex-wrap justify-around items-center'>
                     <div className=''>
                     <div className='flex flex-col text-white my-4 w-96 mx-auto'>
         <label className='mb-2' htmlFor="title"> Workout Name</label>
@@ -34,7 +34,7 @@ const AddWorkouts = () => {
 
                     </div>
                 </div>
-                <div className='flex justify-around'>
+                <div className='flex lg:flex-row flex-col justify-around'>
 <div className='flex flex-col text-white my-4 w-80 mx-auto'>
         <label className='mb-2' htmlFor="title"> Category</label>
         <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg' type="text" placeholder='   category' />
@@ -44,7 +44,7 @@ const AddWorkouts = () => {
         <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg' type="text" placeholder='     340 Kcal' />
     </div>
 </div>
-                <div className='flex'>
+                <div className='flex lg:flex-row flex-col'>
 <div className='flex flex-col text-white my-4 w-80 mx-auto'>
         <label className='mb-2' htmlFor="title"> Time Period</label>
         <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg' type="text" placeholder='    30 mins' />
@@ -54,7 +54,7 @@ const AddWorkouts = () => {
         <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg' type="text" placeholder='    Beginner' />
     </div>
 </div>
-                <div className='flex'>
+                <div className='flex lg:flex-row flex-col'>
 <div className='flex flex-col text-white my-4 w-80 mx-auto'>
         <label className='mb-2' htmlFor="title"> Equipment's Used</label>
         <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg' type="text" placeholder="   Equipment's Used" />

@@ -34,6 +34,7 @@ const Subscription = () => {
             </div>
           </div>
 {/* table */}
+
 <Table2></Table2>
 
 
