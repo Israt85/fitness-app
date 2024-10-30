@@ -14,13 +14,13 @@ const AddWorkouts = () => {
                 <div>
                 <div className='flex lg:flex-row flex-wrap justify-around items-center'>
                     <div className=''>
-                    <div className='flex flex-col text-white my-4 w-96 mx-auto'>
+                    <div className='flex lg:px-0 px-6 flex-col text-white my-4 w-96 mx-auto'>
         <label className='mb-2' htmlFor="title"> Workout Name</label>
-        <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg' type="text" placeholder='      Arms Exercise' />
+        <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg lg:w-full w-60' type="text" placeholder='      Arms Exercise' />
     </div>
-    <div className='flex flex-col text-white my-4 w-96 mx-auto'>
+    <div className='flex flex-col lg:px-0 px-6 text-white my-4 w-96 mx-auto'>
         <label className='mb-2' htmlFor="title"> Workout Description</label>
-        <textarea className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg' name="" id="" cols="5" rows="5" placeholder='      Description'></textarea>
+        <textarea className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg lg:w-full w-60 ' name="" id="" cols="5" rows="5" placeholder='      Description'></textarea>
     </div>
                     </div>
                     <div className='w-60'>
@@ -34,30 +34,30 @@ const AddWorkouts = () => {
 
                     </div>
                 </div>
-                <div className='flex lg:flex-row flex-col justify-around'>
+                <div className='flex lg:px-0 px-6 lg:flex-row flex-col justify-around'>
 <div className='flex flex-col text-white my-4 w-80 mx-auto'>
         <label className='mb-2' htmlFor="title"> Category</label>
-        <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg' type="text" placeholder='   category' />
+        <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg lg:w-full w-60' type="text" placeholder='   category' />
     </div>
 <div className='flex flex-col text-white my-4 w-80 mx-auto'>
         <label className='mb-2' htmlFor="title"> Calories Burn</label>
-        <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg' type="text" placeholder='     340 Kcal' />
+        <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg lg:w-full w-60' type="text" placeholder='     340 Kcal' />
     </div>
 </div>
-                <div className='flex lg:flex-row flex-col'>
+                <div className='flex lg:flex-row lg:px-0 px-6 flex-col'>
 <div className='flex flex-col text-white my-4 w-80 mx-auto'>
         <label className='mb-2' htmlFor="title"> Time Period</label>
-        <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg' type="text" placeholder='    30 mins' />
+        <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg lg:w-full w-60' type="text" placeholder='    30 mins' />
     </div>
 <div className='flex flex-col text-white my-4 w-80 mx-auto'>
         <label className='mb-2' htmlFor="title"> Level</label>
-        <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg' type="text" placeholder='    Beginner' />
+        <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg lg:w-full w-60' type="text" placeholder='    Beginner' />
     </div>
 </div>
-                <div className='flex lg:flex-row flex-col'>
+                <div className='flex lg:flex-row lg:px-0 px-6 flex-col'>
 <div className='flex flex-col text-white my-4 w-80 mx-auto'>
         <label className='mb-2' htmlFor="title"> Equipment's Used</label>
-        <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg' type="text" placeholder="   Equipment's Used" />
+        <input className='p-2 bg-transparent border border-[#E4E4E480] rounded-lg lg:w-full w-60' type="text" placeholder="   Equipment's Used" />
     </div>
 <div className='flex text-white my-4 w-80 mx-auto'>
         <div className='flex w-full justify-center items-center gap-6'>
