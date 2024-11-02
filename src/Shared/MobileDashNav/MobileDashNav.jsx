@@ -56,7 +56,8 @@ const MobileDashNav = () => {
 
 
                     <li>Users</li>
-                  </ul></NavLink >
+                  </ul>
+                  </NavLink >
                   {/* subcriptions */}
                  <NavLink to='subscription' className={({ isActive }) => 
     `flex px-6 items-center py-3 rounded-lg gap-3 ${isActive ? 'bg-[#01010133]' : 'hover:bg-[#01010133]'}`
