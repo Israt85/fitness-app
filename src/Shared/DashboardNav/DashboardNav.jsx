@@ -12,7 +12,7 @@ const DashboardNav = () => {
          </div>
           <div className='lg:block hidden '>
 
-<div className='w-full  h-20 py-6 justify-between text-white flex flex-row bg-[#1A1D26]'>
+<div className='w-full h-20 py-6 justify-between text-white flex flex-row bg-[#1A1D26]'>
    <div className='text-[#D0FD3E] mx-10 text-2xl'>
    ANDREW’S
    </div>

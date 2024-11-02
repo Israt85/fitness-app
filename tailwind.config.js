@@ -6,7 +6,11 @@ const config= {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'laptop': '1024px',
+      },
+    },
   },
   plugins: [
     require('daisyui'),

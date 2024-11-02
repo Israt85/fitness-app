@@ -21,7 +21,7 @@ export default class Example extends PureComponent {
 
   render() {
     return (
-      <ResponsiveContainer width="100%" height="100%">
+      <ResponsiveContainer className='mx-auto' width="100%" height="100%">
         <BarChart width={150} height={40} data={data}>
           <XAxis dataKey="name" padding={{ left: 10, right: 10 }} tick={{ fill: 'white' }} />
           <YAxis tick={false} axisLine={false} />
