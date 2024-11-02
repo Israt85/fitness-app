@@ -10,32 +10,34 @@ const Users = () => {
 </svg>
 <p className="text-xl text-white">Users List</p>
             </div>
-            <div className="h-80 my-4 rounded-lg w-[950px] mx-auto bg-[#424756] border border-[#8B909F]">
-              <div className="flex justify-between m-4">
-                <p className="text-lg text-white">Information</p>
-                <div>
-                <div className="flex items-center">
-                    <input className="h-14 bg-transparent border rounded-lg w-60" type="text" placeholder="  Ex: type by name" />
-                     <div className="bg-[#D0FD3E] rounded-r-lg h-14 -ml-6 flex items-center justify-center w-12">
-                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="lg:h-80 h-auto my-4 w-full rounded-lg lg:w-[950px] mx-auto bg-[#424756] border border-[#8B909F]">
+            <div className="flex lg:flex-row flex-col justify-between m-4">
+            <p className="text-lg text-white">Information</p>
+            <div className="flex justify-start gap-2 lg:flex-row flex-col lg:justify-end m-4">
+           
+           <div className="flex items-center">
+               <input className="h-14 bg-transparent rounded-lg border w-60" type="text" placeholder="  Ex: type by name" />
+                <div className="bg-[#D0FD3E] rounded-r-lg h-14 -ml-6 flex items-center justify-center w-12">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M17 17.0156L13.1396 13.1515M13.1396 13.1515C13.7999 12.4905 14.3237 11.7058 14.6811 10.8422C15.0385 9.97855 15.2224 9.05293 15.2224 8.11816C15.2224 7.18339 15.0385 6.25778 14.6811 5.39416C14.3237 4.53055 13.7999 3.74584 13.1396 3.08486C12.4793 2.42388 11.6953 1.89956 10.8326 1.54184C9.96978 1.18412 9.04507 1 8.11121 1C7.17735 1 6.25264 1.18412 5.38987 1.54184C4.5271 1.89956 3.74316 2.42388 3.08283 3.08486C1.74921 4.41978 1 6.23031 1 8.11816C1 10.006 1.74921 11.8166 3.08283 13.1515C4.41644 14.4864 6.2252 15.2363 8.11121 15.2363C9.99722 15.2363 11.806 14.4864 13.1396 13.1515Z" stroke="#010101" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-                     </div>
-                     <div className="h-14 ml-4 rounded-lg flex items-center justify-around gap-2 px-1 w-28 border border-[#D0FD3E]">
-                     <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                </div>
+                </div>
+                
+                <div className="lg:h-14 ml-4 rounded-lg flex items-center justify-center gap-2 px-1 w-28 border border-[#D0FD3E]">
+                <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M11.59 6.21876H10V1.21387C10 0.66333 9.55 0.212891 9 0.212891H5C4.45 0.212891 4 0.66333 4 1.21387V6.21876H2.41C1.52 6.21876 1.07 7.29981 1.7 7.93043L6.29 12.5249C6.68 12.9153 7.31 12.9153 7.7 12.5249L12.29 7.93043C12.92 7.29981 12.48 6.21876 11.59 6.21876ZM0 16.2285C0 16.7791 0.45 17.2295 1 17.2295H13C13.55 17.2295 14 16.7791 14 16.2285C14 15.678 13.55 15.2276 13 15.2276H1C0.45 15.2276 0 15.678 0 16.2285Z" fill="#D0FD3E"/>
 </svg>
 <p className="text-lg text-[#D0FD3E]">Export</p>
 <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M1 1.21873L6 6.22852L11 1.21874" stroke="#D0FD3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
-                     </div>
                 </div>
-                </div>
-              </div>
+           </div>
+          </div>
 {/* table */}
-<div className="z-10">
+<div className="z-10 w-full h-auto overflow-x-auto">
 <TableComponent></TableComponent>
 </div>
 

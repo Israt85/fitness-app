@@ -4,8 +4,8 @@ const Modal3 = () => {
     return (
         <div>
             {/* Open the modal using document.getElementById('ID').showModal() method */}
-<button className="" onClick={()=>document.getElementById('my_modal_5').showModal()}><p className='text-[#D0FD3E]'>Go Live</p></button>
-<dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
+<button className="" onClick={()=>document.getElementById('my_modal_7').showModal()}><p className='text-[#D0FD3E]'>Go Live</p></button>
+<dialog id="my_modal_7" className="modal modal-bottom sm:modal-middle">
   <div className="modal-box lg:w-[755px] w-[300px] mx-auto h-[600px] border border-[#EDF1698A] bg-[#1E1D1D]">
     <p className='text-[#D0FD3E] text-center text-xl font-bold'>Provide live data</p>
     <div>

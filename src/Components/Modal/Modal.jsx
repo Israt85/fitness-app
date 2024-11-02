@@ -19,9 +19,9 @@ const Modal = () => {
 
                                </div></button>
 <dialog id="my_modal_1" className="modal">
-  <div className="modal-box w-[755px]  bg-[#1E1D1D] h-[600px]">
+  <div className="modal-box lg:w-[755px] w-60  bg-[#1E1D1D] h-[600px]">
     <p className='text-xl text-center text-[#D0FD3E]'>User Information</p>
-    <div className='flex justify-between'>
+    <div className='flex lg:flex-row flex-col justify-between'>
       <div className='my-6'>
          <div>
          <img className='w-24 relative h-28 mx-2 rounded-full' src={profile} alt="" />
@@ -54,8 +54,8 @@ const Modal = () => {
       </div>
     </div>
 
-    <div className='flex items-end gap-4'>
-      <div className='w-[255px] h-[285px] rounded-lg bg-[#D0FD3E0D] border border-[#D0FD3EB2]'>
+    <div className='flex lg:flex-row flex-col items-end gap-4'>
+      <div className='lg:w-[255px] lg:h-[285px] w-full h-auto rounded-lg bg-[#D0FD3E0D] border border-[#D0FD3EB2]'>
            <p className='px-4 pt-4 text-white '>DATE OF BIRTH</p>
            <p className='px-4 text-gray-400 '>25-23-2020</p>
            <p className='px-4 pt-4 text-white '>WEIGHT</p>
@@ -65,7 +65,7 @@ const Modal = () => {
            <p className='px-4 pt-4 text-white '>GENDER</p>
            <p className='px-4 text-gray-400 '>Female</p>
       </div>
-      <div className='w-[255px] h-[150px] rounded-lg bg-[#D0FD3E0D] border border-[#D0FD3EB2]'>
+      <div className='lg:w-[255px] lg:h-[150px] h-auto w-full rounded-lg bg-[#D0FD3E0D] border border-[#D0FD3EB2]'>
       <p className='px-4 pt-4 text-white '>SUBSCRIPTION</p>
       <p className='px-4 text-gray-400 '>Basic Gym Monthly</p>
       <p className='px-4 pt-4 text-white '>REGISTERED ON</p>

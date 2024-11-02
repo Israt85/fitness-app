@@ -19,7 +19,7 @@ const Modal2 = () => {
        {/* Open the modal using document.getElementById('ID').showModal() method */}
 <button className="w-full mx-auto" onClick={()=>document.getElementById('my_modal_6').showModal()}> <p className='text-center p-6 text-base'>Cancel Subscription</p></button>
 <dialog id="my_modal_6" className="modal modal-bottom sm:modal-middle">
-  <div className="p-6 w-[550px] h-[200px] bg-[#1E1D1D] border border-[#D1D72F8A]">
+  <div className="p-6 lg:w-[550px] w-72 mx-auto h-auto lg:h-[200px] bg-[#1E1D1D] border border-[#D1D72F8A]">
     <p className='text-center text-xl text-[#D0FD3E]'>Cancel Subscription</p>
     <p className='text-center
      text-lg py-2 text-gray-400'>Do you really want to cancel the subscription of this user? In case of cancellation, you have to refund the payment.</p>
